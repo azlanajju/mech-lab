@@ -107,7 +107,7 @@ body {
 .container {
   margin: 2px;
   position: relative;
-  min-height: 100vh;
+  min-height: 80vh;
 }
 
 iframe {
@@ -282,46 +282,6 @@ footer span a:hover {
   user-select: none;
 }
 
-/* The actual popup */
-.popup .popuptext {
-  visibility: hidden;
-  width: 100px;
-  background-color: #6DE60D;
-  background: grey;
-  background: grey;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 8px 0;
-  position: absolute;
-  z-index: 1;
-  bottom: 125%;
-  left: 50%;
-  margin-left: -50px;
-}
-
-/* Popup arrow */
-.popup .popuptext::after {
-
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #6DE60D transparent transparent transparent;
-
-  border-color: #333 transparent transparent transparent;
-}
-
-/* Toggle this class - hide and show the popup */
-.popup .show {
-  visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s;
-}
-
 /* Add animation (fade in the popup) */
 @-webkit-keyframes fadeIn {
   from {
@@ -344,62 +304,6 @@ footer span a:hover {
 }
 
 
-.q-btn button {
-  padding: 5px 10px;
-  border: 1px solid #6DE60D;
-  border: grey;
-  border-radius: 10px;
-  background: #151320;
-  color: #6DE60D;
-  color: grey;
-  transition: 2s;
-  box-shadow: 1px 1px 2px 1px rgba(109, 229, 13, 0.7);
-  box-shadow: 1px 1px 2px 1px rgba(66, 66, 66, 0.7);
-}
-
-.q-img img {
-  border-radius: 20px;
-  border: 1px solid #6DE60D;
-  border: 1px solid grey;
-  display: none;
-}
-
-.q-imgshow img {
-  display: block;
-}
-
-.q-imgshow {
-  border-radius: 20px;
-  border: 1px solid #6DE60D;
-  border: 1px solid grey;
-  height: 60vh;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  margin: 10px;
-
-}
-
-.q-btn2 button {
-  padding: 5px 10px;
-  border: 1px solid #6DE60D;
-  border: 1px solid grey;
-  border-radius: 10px;
-  background: #151320;
-  color: #6DE60D;
-  color: grey;
-  transition: 2s;
-  box-shadow: 1px 1px 2px 1px rgba(109, 229, 13, 0.7);
-}
-
-.q-img2 img {
-  border-radius: 20px;
-  border: 1px solid #6DE60D;
-  display: none;
-}
-
-.q-imgshow2 img {
-  display: block;
-}
 
 
 
@@ -477,7 +381,7 @@ footer span a:hover {
 
   }
   .container iframe{
-    min-height: 100vh !important;
+    min-height: 80vh !important;
   }
 
 
