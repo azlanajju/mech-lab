@@ -401,16 +401,6 @@ footer span a:hover {
   display: block;
 }
 
-.q-imgshow2 {
-  border-radius: 20px;
-  border: 1px solid #6DE60D;
-  border: 1px solid grey;
-  height: 60vh;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  margin: 10px;
-
-}
 
 
 .sems button {
@@ -424,16 +414,6 @@ footer span a:hover {
   margin: 10px;
 }
 
-.sub a {
-  text-decoration: none;
-  font-weight: 1000;
-  margin: 40px;
-  background: none;
-  color: white;
-  border: none;
-  font-size: 50px;
-
-}
 
 .subactiv a {
   color: #6DE60D;
