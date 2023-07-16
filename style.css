@@ -25,12 +25,9 @@
 
 }
 body {
-
   overflow: scroll;
-
   width: 100%;
   background-color: #151320;
-
   height: 100vh;
   font-family: 'Poppins', sans-serif;
 }
@@ -103,7 +100,6 @@ body {
   margin: 10px;
   margin-top: 20px;
   background-color: #1c1b29;
-
   border-radius: 20px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.18);
 }
@@ -111,11 +107,10 @@ body {
 .container {
   margin: 2px;
   position: relative;
-  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-  height: 60vh;
+  min-height: 100vh;
 }
 
-textarea {
+iframe {
   color: white;
   overflow-y: scroll;
   font-weight: bold;
@@ -143,24 +138,11 @@ textarea {
 
 }
 
-.card1>.container textarea {
-  background-image: linear-gradient(165deg,
-      #1c1b29,
-      black);
 
-}
 
-.card2>.container textarea {
-  background-image: linear-gradient(165deg,
-      #1c1b29,
-      black, black);
-
-}
-
-.card3>.container textarea {
-  background-image: linear-gradient(165deg,
-      #1c1b29,
-      black, black);
+.card3>.container iframe {
+width: 100%;
+height: 100%;
 }
 
 .details {
@@ -241,7 +223,6 @@ textarea {
   .container {
     margin: 5px;
     position: relative;
-    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     height: 60vh;
   }
 
